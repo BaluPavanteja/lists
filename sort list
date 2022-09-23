@@ -1,0 +1,14 @@
+#python
+n1=int(input())
+a=[]
+l=[]
+for i in range(0,n1):
+    temp=int(input())
+    a.append(temp)
+n2=int(input())
+b=[]
+for i in range(0,n2):
+    var=int(input())
+    b.append(var)
+l=a+b 
+print(f"Sorted list is:{sorted(l)}")
