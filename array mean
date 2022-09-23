@@ -1,0 +1,12 @@
+#python
+n=int(input())
+list=[]
+print("Enter list values:")
+for i in range(1,n+1):
+    temp=int(input())
+    list.append(temp)
+sum=0
+for i in list:
+    sum=sum+i
+mean=sum/n
+print(mean)
