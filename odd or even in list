@@ -1,0 +1,15 @@
+#python
+n=int(input())
+l=[]
+even=[]
+odd=[]
+for i in range(0,n):
+    temp=int(input())
+    l.append(temp)
+for i in l:
+    if i%2==0:
+        even.append(i)
+    else:
+        odd.append(i)
+print(f"The even list {even}")
+print(f"The odd list {odd}")
